@@ -17,4 +17,11 @@ module.exports = {
     },
     plugins: [isDevelopment && new BundleAnalyzerPlugin()].filter(Boolean),
   },
+
+  pluginOptions: {
+    apollo: {
+      enableMocks: true,
+      enableEngine: true
+    }
+  }
 }

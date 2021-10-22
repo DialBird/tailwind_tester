@@ -1,14 +1,14 @@
 <template>
   <div id="app">
-    <h1 class=" text-2xl font-bold">Top</h1>
+    <h1 class="text-2xl font-bold">Top</h1>
     <router-view></router-view>
   </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
-  name: "App",
-};
+  name: 'App',
+}
 </script>
 
 <style>

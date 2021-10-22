@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <h1 class="text-2xl font-bold">Top</h1>
     <router-view></router-view>
   </div>
 </template>

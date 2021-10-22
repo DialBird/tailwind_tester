@@ -2,12 +2,12 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  name: 'Sub',
+  name: 'Home',
 })
 </script>
 
 <template>
   <div class="my-4">
-    <h3 class="text-xl font-bold">This is Sub</h3>
+    <h3 class="text-xl font-bold">This is Home</h3>
   </div>
 </template>

@@ -1,23 +1,28 @@
-import Vue from "vue";
-import Router from "vue-router";
+import Vue from 'vue'
+import Router from 'vue-router'
 
-Vue.use(Router);
+Vue.use(Router)
 
 const router = new Router({
-  mode: "history",
+  mode: 'history',
   routes: [
     {
-      path: "/",
-      component: () => import("@/components/Layout.vue"),
+      path: '/',
+      component: () => import('@/components/Layout.vue'),
       children: [
         {
-          path: "/sub",
-          name: "sub",
-          component: () => import("@/components/Sub.vue"),
+          path: '',
+          name: 'home',
+          component: () => import('@/components/Home.vue'),
+        },
+        {
+          path: '/sub',
+          name: 'sub',
+          component: () => import('@/components/Sub.vue'),
         },
       ],
     },
   ],
-});
+})
 
-export default router;
+export default router

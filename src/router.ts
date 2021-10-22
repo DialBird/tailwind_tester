@@ -20,6 +20,11 @@ const router = new Router({
           name: 'sub',
           component: () => import('@/components/Sub.vue'),
         },
+        {
+          path: '/three',
+          name: 'three',
+          component: () => import('@/components/Three.vue'),
+        },
       ],
     },
   ],

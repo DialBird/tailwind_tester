@@ -15,6 +15,7 @@ export default Vue.extend({
     <div class="flex gap-4">
       <router-link to="/">Home</router-link>
       <router-link :to="{ name: 'sub' }">Sub</router-link>
+      <router-link :to="{ name: 'three' }">Three</router-link>
     </div>
   </header>
 </template>

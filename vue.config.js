@@ -13,6 +13,6 @@ module.exports = {
         '@': path.resolve(__dirname, 'src'),
       },
     },
-    plugins: [new BundleAnalyzerPlugin()],
+    // plugins: [new BundleAnalyzerPlugin()],
   },
 }

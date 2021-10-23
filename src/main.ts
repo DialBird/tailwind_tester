@@ -6,8 +6,11 @@ import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import router from '@/router'
 import { createProvider } from './vue-apollo'
+import { v4 as uuidv4 } from 'uuid'
 
 library.add(faUserSecret)
+
+console.log(uuidv4)
 
 Vue.config.productionTip = false
 

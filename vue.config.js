@@ -15,13 +15,22 @@ module.exports = {
         '@': path.resolve(__dirname, 'src'),
       },
     },
+    module: {
+      rules: [
+        {
+          test: /\.ts$/,
+          exclude: /node_modules/,
+          loader: 'babel-loader',
+        },
+      ],
+    },
     plugins: [isDevelopment && new BundleAnalyzerPlugin()].filter(Boolean),
   },
 
   pluginOptions: {
     apollo: {
       enableMocks: true,
-      enableEngine: true
-    }
-  }
+      enableEngine: true,
+    },
+  },
 }

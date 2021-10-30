@@ -11780,11 +11780,6 @@ three@^0.133.1:
   resolved "https://registry.yarnpkg.com/three/-/three-0.133.1.tgz#5606f4817d67a09d9212d4ccbd6826564774f8f4"
   integrity sha512-WydohO8ll949B0FTD6MGz59Yv2Lwj8hvObg/0Heh2r42S6+tQC1WByfCNRdmG4D7+odfGod+n8JPV1I2xrboWw==
 
-throttle-debounce@^2.1.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/throttle-debounce/-/throttle-debounce-2.3.0.tgz#fd31865e66502071e411817e241465b3e9c372e2"
-  integrity sha512-H7oLPV0P7+jgvrk+6mwwwBDmxTaxnu9HMXmloNLXwnNO0ZxZ31Orah2n8lU1eMPvsaowP2CX+USCgyovXfdOFQ==
-
 through2@^2.0.0:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/through2/-/through2-2.0.5.tgz#01c1e39eb31d07cb7d03a96a70823260b23132cd"
@@ -12437,15 +12432,6 @@ vscode-uri@^1.0.6:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/vscode-uri/-/vscode-uri-1.0.8.tgz#9769aaececae4026fb6e22359cb38946580ded59"
   integrity sha512-obtSWTlbJ+a+TFRYGaUumtVwb+InIUVI0Lu0VBUAPmj2cU5JutEXg3xUE0c2J5Tcy7h2DEKVJBFi+Y9ZSFzzPQ==
-
-vue-apollo@^3.0.0-beta.11:
-  version "3.0.8"
-  resolved "https://registry.yarnpkg.com/vue-apollo/-/vue-apollo-3.0.8.tgz#6609a006daf5ba38c19a7ed7d802b907e7361a86"
-  integrity sha512-RnkC75PMoGwl1sdZdVO3R9P51wqmgOVi4QmljkBaTzlVThVlqfkJhrBcPiw2K9EohvSagvZclNqXktyOCcXbBA==
-  dependencies:
-    chalk "^2.4.2"
-    serialize-javascript "^4.0.0"
-    throttle-debounce "^2.1.0"
 
 vue-cli-plugin-apollo@~0.22.2:
   version "0.22.2"

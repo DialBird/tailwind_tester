@@ -27,6 +27,9 @@
     "vue": "^2.6.11",
     "vue-router": "^3.5.2"
   },
+  "resolutions": {
+    "ua-parser-js": "^1.0.1"
+  },
   "devDependencies": {
     "@types/lodash": "^4.14.176",
     "@types/three": "^0.133.1",

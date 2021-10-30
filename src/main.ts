@@ -6,7 +6,6 @@ import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import router from '@/router'
 // import VeryHeavy2 from '@/components/VeryHeavy2.vue'
-// import { createProvider } from './vue-apollo'
 import { v4 as uuidv4 } from 'uuid'
 
 library.add(faUserSecret)
@@ -20,6 +19,5 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 new Vue({
   render: (h) => h(App),
-  // apolloProvider: createProvider(),
   router,
 }).$mount('#app')
